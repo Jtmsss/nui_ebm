@@ -1,0 +1,29 @@
+# Ignore big data files
+*.pkl
+*.csv
+*.gpkg
+*.zip
+*.json
+
+# Ignore Python cache and virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+venv/
+.envrc
+
+# Ignore data and model folders
+data/
+datasets/
+notebooks/
+outputs/
+
+# System files
+.DS_Store
+Thumbs.db
+grid.pkl
+multi_class_grid.csv
+ebm_test/multi_class_grid_clean.csv
+multi_class_grid_clean.csv
